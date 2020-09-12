@@ -101,6 +101,8 @@ def summarize_performance(scores):
 	# box and whisker plots of results
 	pyplot.boxplot(scores)
 	pyplot.show()
+    #save the plot    
+	pyplot.savefig('performance1.png')
 
 #running the whole model
 def run_model():
